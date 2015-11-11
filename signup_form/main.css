@@ -2,6 +2,53 @@
   box-sizing:boarder-box;
 }
 
+/*challenge 14: Adding Focus*/
+*:focus {
+  outline: none;
+}
+
+/*Challenge 18 - Add some color to the right buttons*/
+
+.facebook {
+  background: #32508E;
+}
+
+.twitter {
+  background: #55ACEE;
+}
+
+.google {
+  background: #DD4B39;
+}
+
+/*Challenge 19 Style that OR*/
+
+.or {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+}
+
+/*Challenge 20*/
+.or {
+  position: absolute;
+  top: 180px;
+  left: 280px;
+  width: 40px;
+  height: 40px;
+  background: #DDD;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+
+
+/*Stuff we did in Class*/
+
 body {
    background: #DDD;
    color: #222;
@@ -19,3 +66,111 @@ body {
  border-radius: 2px;
  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
 }
+
+
+/*challenge 14: Adding Focus*/
+h1 {
+  margin: 0 0 20px 0;
+  font-weight: 300;
+  font-size: 2em;
+}
+
+.sign-up input {
+  border: none;
+  border-bottom: 1px solid #AAA;
+  display: block;
+  margin-bottom: 20px;
+  padding: 4px;
+  width: 220px;
+  height: 32px;
+  font-weight: 400;
+  /*transition: 0.2s ease*/
+}
+
+.sign-up input:focus
+ {
+  border-bottom: 2px solid #16a085;
+  color: #16a085;
+  transition: 0.2s ease;
+}
+
+.sign-up-button {
+  margin: 5px auto;
+  width: 220px;
+  height: 32px;
+  border: none;
+  border-radius: 2px;
+  background: #16a085;
+  color: #FFF;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.sign-up-button:hover {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+.sign-up-button:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+
+/*Challenge 15 - style the <span>*/
+
+.loginwith {
+  display: block;
+  margin-bottom: 40px;
+  font-size: 2em;
+  color: #FFF;
+  text-align: center;
+}
+
+/*Challenge 16 Answer*/
+
+button.social-signin {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+}
+
+/*Challenge 17 - Refactor the buttons!*/
+/**********************************************
+  start of button styling
+/**********************************************/
+
+button {
+  margin-bottom: 20px;
+  width: 220px;
+  height: 36px;
+  border: none;
+  border-radius: 2px;
+  color: #FFF;
+  font-weight: 400;
+}
+
+button:hover {
+  opacity: 0.8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
+  transition: 0.1s ease;
+}
+
+button:active {
+  opacity: 1;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+}
+
+.sign-up-button {
+  margin: 5px auto;
+  background: #16a085;
+  text-transform: uppercase;
+}
+
+/**********************************************
+  end of button styling
+/**********************************************/
